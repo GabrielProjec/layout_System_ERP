@@ -1,5 +1,14 @@
 # React + Vite
 
+## RUN PROJETO
+ -- npm install
+ -- npm run dev
+
+## PACKAGES USED
+ - tailwindCSS
+ - react-icons
+ - react-router-dom
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
