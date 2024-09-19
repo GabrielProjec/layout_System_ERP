@@ -39,7 +39,7 @@ const Sidebar = ({ isVisible, toggleSidebar }) => {
               <li
                 className="text-white  text-sm mt-10  flex items-center gap-x-6 cursor-pointer p-2  hover:bg-blue-400 hover:opacity-80  hover:w-[100%] hover:text-white rounded-md"
               >
-                <span className="text-xl block float-left">
+                <span className="text-2xl block float-left">
                   <RiDashboardFill />
                 </span>
                 <span
@@ -51,11 +51,7 @@ const Sidebar = ({ isVisible, toggleSidebar }) => {
                 </span>
               </li>
             </Link>
-            {!open && (
-              <span className=" absolute left-full top-1/2 transform -translate-y-1/2 ml-2 w-max  bg-blue-400 text-white text-sm rounded-md px-2 py-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                Home
-              </span>
-            )}
+            
           </div>
           <div className="relative group">
             <Link to="/contato" className="w-100%">
@@ -72,11 +68,7 @@ const Sidebar = ({ isVisible, toggleSidebar }) => {
                 </span>
               </li>
             </Link>
-            {!open && (
-              <span className="absolute left-full top-1/2 transform -translate-y-1/2 ml-2 w-max  bg-blue-400 text-white text-sm rounded-md px-2 py-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                Contato
-              </span>
-            )}
+           
           </div>
           <div className={`flex items-center  top-7 p-2 hover:bg-blue-400 hover:opacity-80 rounded-md hover:text-white`}>
         {theme === "light" ? (
