@@ -13,7 +13,7 @@ const Home = () => {
     <div>
      <TitlePages titleName="Home" />
 
-      <div className='p-4 w-full flex items-center justify-center gap-4'>
+      <div className='p-4 w-full flex flex-wrap items-center justify-center gap-4'>
         <DashboardCards title="Total Alunos" number="2000" icon={<PiStudent />} bgBorder='border-[rgb(32,45,105)] dark:border-blue-400'  />
         <DashboardCards title="Total Cursos" number="4" icon={<MdOndemandVideo />} bgBorder='border-red-400 dark:border-blue-400'  />
         <DashboardCards title="Total Projetos" number="100" icon={<PiStudent />} bgBorder='border-indigo-400 dark:border-blue-400'  />

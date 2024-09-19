@@ -2,7 +2,7 @@ import React from 'react'
 
 function DashboardCards({ icon, title, number , bgBorder  }) {
     return (
-        <div className={`flex justify-center items-center  border-l-4 ${bgBorder} rounded-lg w-[300px] h-[100px] bg-white dark:bg-[#292929] shadow-lg `}>
+        <div className={`flex justify-center items-center  border-l-4 ${bgBorder} rounded-lg w-full md:w-[300px] h-[100px] bg-white dark:bg-[#292929] shadow-lg `}>
             <div className='ml-2 w-[20%] flex items-center justify-center  text-6xl dark:text-white'>
                 {icon}
             </div>
