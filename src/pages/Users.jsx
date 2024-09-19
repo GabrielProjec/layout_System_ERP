@@ -1,14 +1,14 @@
 import React from 'react'
 import TitlePages from '../components/TitlePages'
 
-const Home = () => {
+const Users = () => {
   return (
     <div>
-     <TitlePages titleName="Home" />
+     <TitlePages titleName="Users" />
 
     
     </div>
   )
 }
 
-export default Home
+export default Users
