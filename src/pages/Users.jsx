@@ -4,7 +4,7 @@ import TitlePages from '../components/TitlePages'
 const Users = () => {
   return (
     <div>
-     <TitlePages titleName="Users" />
+     <TitlePages titleName="Usuários" />
 
     
     </div>

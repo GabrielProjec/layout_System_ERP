@@ -4,7 +4,7 @@ import TitlePages from '../components/TitlePages'
 const Settings = () => {
   return (
     <div>
-     <TitlePages titleName="Settings" />
+     <TitlePages titleName="Configurações" />
 
     
     </div>
