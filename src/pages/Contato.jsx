@@ -1,9 +1,10 @@
 import React from 'react'
+import TitlePages from '../components/TitlePages'
 
 const Contato = () => {
   return (
     <div>
-      <h1 className='text-gray-800 dark:text-white'>Contato</h1>
+    <TitlePages titleName="Contato" />
     </div>
   )
 }

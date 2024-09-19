@@ -1,9 +1,10 @@
 import React from 'react'
+import TitlePages from '../components/TitlePages'
 
 const Home = () => {
   return (
     <div>
-      <h1 className='text-gray-800 dark:text-white'>Home</h1>
+     <TitlePages titleName="Home" />
     </div>
   )
 }
