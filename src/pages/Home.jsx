@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 // COMPONENTS
 import TitlePages from '../components/TitlePages'
